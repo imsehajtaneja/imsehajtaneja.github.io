@@ -1,39 +1,35 @@
-## Bondy Free Multi Purpose Bootstrap 3 One Page
+#Thinny - The Infinite's Nymphet
 
-Bondy is a free fully responsive Bootstrap 3 template multi-purpose for any upcoming project. 
-The template comes with developer friendly and easy customizable code. It works with all main web browsers "IE8+", Tablets and mobile phones.
 
-## Features
+----
 
-+ Built With Bootstrap 3 Latest Stable Version.
-+ Section Animation
-+ Three Predefined Colors.
-+ Two Extra Pages For Blogging (Blog-Archive, Blog Single).
-+ Simple Logo PSD.
-+ SASS Support.
-+ Well Documented.
-+ SEO Friendly (Semantic HTML5).
-+ W3C Valid HTML5.
+###Attention
 
-## Credits
+I'm no longer maintaining this repository.
 
-+ [Twitter Bootstrap](http://www.getbootstrap.com)
-+ [jQuery](http://jquery.com)
-+ [Font Awesome](http://fortawesome.github.io/Font-Awesome)
-+ [easyPieChart](https://github.com/rendro/easy-pie-chart)
-+ [excanvas](https://code.google.com/p/explorercanvas/)
-+ [Revolution Slider](http://www.themepunch.com/codecanyon/revolution)
-+ [isotope](http://isotope.metafizzy.co/)
-+ [Waypoint](https://github.com/imakewebthings/jquery-waypoints)
-+ [unsplash](https://unsplash.com/)
-+ [mockups](http://freebbble.com/)
+If you want to add something, feel free to send a pull request, which I'll see if it's okay and merge.
 
-## MIT License
+----
 
-Copyright (c) 2014 [ScoopThemes](http://www.scoopthemes.com)
+##Installation
+1. Clone the repo: `git clone https://github.com/camporez/Thinny.git Thinny`
+2. Open the folder: `cd Thinny`
+3. Install the dependencies: `bundle install`
+4. Build the website: `bundle exec jekyll serve`
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+##About
+Thinny is a beautiful theme for [Jekyll](http://jekyllrb.com/).
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+##Demo
+[![Preview image](https://f.cloud.github.com/assets/5755892/2002329/bdb5a052-85ed-11e3-8e00-a892910b6917.png)](http://camporez.github.io/)
+The above image is a preview of how the post header looks on Thinny.
+
+A live demo is available [on my personal blog](http://camporez.github.io/).
+
+##More information
+Read the blog post [here](http://camporez.github.io/blog/thinny-2/).
+
+##Reporting issues
+You can report an issue or request a feature [here](http://github.com/camporez/Thinny/issues) or on [twitter](http://twitter.com/iancamporez).
