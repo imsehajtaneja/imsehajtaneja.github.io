@@ -28,6 +28,26 @@
 <script type="text/javascript" src="js/progressbar.js"></script>
 <!-- Portfolio-->
 <script src="js/modernizr.custom.js"></script>
+
+  <script type="text/javascript" src="//sehajtaneja.simplybook.me/common/js/widget_loader.js"></script>
+<script type="text/javascript">
+DoReserve_Widget.server = "sehajtaneja.simplybook.me";
+DoReserve_Widget.domain = "simplybook.me";
+DoReserve_Widget.mobileRedirect = 0;
+DoReserve_Widget.layout = "default";
+DoReserve_Widget.color_scheme = "cupertino";
+DoReserve_Widget.timeline = "modern_week";
+DoReserve_Widget.mode = "auto";
+DoReserve_Widget.simplybook_iframe_src = "//sehajtaneja.simplybook.me/sheduler/manage/?frameId=1&preview=1&type=widgetv2&width=960&url=sehajtaneja.simplybook.me&theme=cupertino&layout=default&timeline=modern_week&mobile_redirect=0&mode=auto";
+DoReserve_Widget.predefinedSteps = {};
+DoReserve_Widget.offset = "30%";
+DoReserve_Widget.title = "Book a Meeting";
+DoReserve_Widget.position = "right";
+DoReserve_Widget.color = "#ffffff";
+DoReserve_Widget.background = "#17acef";
+DoReserve_Widget.addSimplybookButton();
+</script>
+
 </head>
 <body>
 <div id="container" class="container"> 
@@ -62,6 +82,8 @@
       </article>
       -->
       
+      
+    
       <!-- About -->
       <article class="content about white-bg" id="chapterabout">
         <div class="inner" >
@@ -312,7 +334,7 @@
         <div class="inner">
           <h2>Portfolio</h2>
           <div class="title-divider"></div>
-          <h3>Our portfolio features a variety of projects and services</h3>
+          <h3>My portfolio features a variety of projects and services</h3>
           <p></p>
           <div class="portfolio-con">
             <div class="container-sub margin-top50">
@@ -321,7 +343,7 @@
                   <section class="grid-wrap">
                     <ul class="grid">
                       <li>
-                        <figure> <img src="http://placehold.it/700x475" alt=""/>
+                        <figure> <img src="images/ds.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Delhi Startups</h3>
@@ -330,7 +352,7 @@
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="http://placehold.it/700x475" alt=""/>
+                        <figure> <img src="images/da.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Delhi Angels</h3>
@@ -339,7 +361,7 @@
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="http://placehold.it/700x475" alt=""/>
+                        <figure> <img src="images/ecell.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>eCell MSIT</h3>
@@ -348,7 +370,7 @@
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="http://placehold.it/700x475" alt=""/>
+                        <figure> <img src="images/ama.jpg" alt=""/>
                           <figcaption>
                             <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Amazing Creations</h3>
@@ -371,11 +393,8 @@
                             <p></p>
                           </figcaption>
                           <div id="owl-demo1" class="owl-carousel">
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
+                            <div class="item"><img src="images/ds.jpg" alt="" /></div>
+                          
                           </div>
                         </figure>
                       </li>
@@ -386,7 +405,7 @@
                             <span>Website Design & Development</span>
                             <p></p>
                           </figcaption>
-                          <img src="http://placehold.it/700x475" alt=""/></figure>
+                          <img src="images/da.jpg" alt=""/></figure>
                       </li>
                       <li>
                         <figure>
@@ -396,11 +415,8 @@
                             <p></p>
                           </figcaption>
                           <div id="owl-demo2" class="owl-carousel">
-                             <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
-                            <div class="item"><img src="http://placehold.it/700x475" alt="" /></div>
+                             <div class="item"><img src="images/ecell.jpg" alt="" /></div>
+                           
                           </div>
                         </figure>
                       </li>
@@ -411,7 +427,9 @@
                             <span>Web Design</span>
                             <p></p>
                           </figcaption>
-                          <iframe width="854" height="480" src="//www.youtube.com/embed/ZwzY1o_hB5Y" frameborder="0" allowfullscreen></iframe></figure>
+                          <div id="owl-demo2" class="owl-carousel">
+                             <div class="item"><img src="images/ama.jpg" alt="" /></div>
+                             </figure>
                       </li>
                       
                     </ul>
@@ -458,6 +476,17 @@
                     <h3>I'm also on Social Networks</h3>
                     <div class="contact-social margin-top30"><a href="https://www.facebook.com/sehajtaneja.me" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/imsehajtaneja" target="_blank"><i class="fa fa-twitter"></i></a> <a href="#" target="_blank"><i class="fa fa-youtube"></i></a><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a><a href="https://www.linkedin.com/in/sehaj-taneja-277758aa" target="_blank"><i class="fa fa-linkedin"></i></a> </div>
                   </div>
+                  <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_imsehajtaneja_1">
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "call",
+ "element": "SkypeButton_Call_imsehajtaneja_1",
+ "participants": ["imsehajtaneja"],
+ "imageSize": 32
+ });
+ </script>
+</div>
                 </div>
               </div>
             </div>
