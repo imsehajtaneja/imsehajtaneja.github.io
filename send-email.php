@@ -3,7 +3,7 @@
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
- $receiver="info@yourdomain.com";
+ $receiver="sehajtaneja@protonmail.com";
  $subject="Contact us form details";
 
 $message = "

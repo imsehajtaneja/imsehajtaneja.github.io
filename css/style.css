@@ -607,7 +607,7 @@ a.totop-link {
    ========================================================================== */
 
 .about {
-    background: url(http://placehold.it/1100x1080/fff)no-repeat 100% 0 scroll;
+    background: url()no-repeat 100% 0 scroll;
     background-size: contain;
 }
 .about .inner {
@@ -913,7 +913,7 @@ a.totop-link {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background: url(http://placehold.it/1608x1080/000)no-repeat right top;
+    background: url()no-repeat 100% 0 scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -921,7 +921,7 @@ a.totop-link {
     cursor: pointer;
 }
 .introduction-end-con {
-    float: right;
+    float: middle;
     margin: 30% 0 0;
     width: 30%;
 }
